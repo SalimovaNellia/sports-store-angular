@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Product } from "./product.model";
-import { Observable } from "rxjs/Observable";
+import { Observable } from 'rxjs/Observable';
 import "rxjs/add/observable/from";
 
 @Injectable() 
