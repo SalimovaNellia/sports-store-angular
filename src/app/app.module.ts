@@ -15,6 +15,6 @@ import { StoreFirstGuard } from "./storeFirst.guard";
     StoreModule
   ],
   providers: [ StoreFirstGuard],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
