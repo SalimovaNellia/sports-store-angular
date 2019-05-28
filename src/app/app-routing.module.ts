@@ -4,6 +4,8 @@ import { StoreComponent } from './store/store.component';
 import { CartDetailComponent } from './store/cartDetail.component';
 import { CheckoutComponent } from './store/checkout.component';
 import { StoreFirstGuard } from "./storeFirst.guard";
+import { AuthComponent } from './admin/auth.component';
+import { AdminComponent } from './admin/admin.component';
 
 const routes: Routes = [
   { path: "store", 
@@ -16,6 +18,10 @@ const routes: Routes = [
     component: CheckoutComponent,
     canActivate: [StoreFirstGuard]
   },
+  { path: "admin",
+    loadChildren: "./admin/admin.module#AdminModule",
+    canActivate: [StoreFirstGuard]
+},
   { path: "**", redirectTo: "/store" }
 ];
 

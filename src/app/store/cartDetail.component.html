@@ -14,7 +14,7 @@
         </thead>
         <tbody>
             <tr *ngIf="cart.lines.length == 0">
-                <td colspa="4" class="text-xs-center">
+                <td colspan="4" class="text-xs-center">
                     Your cart is empty
                 </td>
             </tr>
@@ -47,5 +47,5 @@
 </div>
 <div class="text-xs-center">
     <button class="btn btn-primary" routerLink="/store" style="margin-right:10px">Continue Shopping</button>
-    <button class="btn btn-secondary" routerLink="/chekout" [disabled]="cart.lines.length == 0">Chekout</button>
+    <button class="btn btn-secondary" routerLink="/checkout" [disabled]="cart.lines.length == 0">Chekout</button>
 </div>
