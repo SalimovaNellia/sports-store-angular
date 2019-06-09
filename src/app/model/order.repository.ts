@@ -11,7 +11,7 @@ export class OrderRepository {
     constructor(private dataSource: RestDataSource) {}
 
     loadOrders() {
-        return this.loaded = true;
+        this.loaded = true;
         this.dataSource.getOrders()
           .subscribe(orders => this.orders = orders);
     }
