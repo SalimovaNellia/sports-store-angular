@@ -2,6 +2,6 @@ Online store application with electronic catalog of goods which can be viewed on
 
 ![Image alt](https://github.com/SalimovaNellia/sports-store-angular/raw/master/src/assets/screenshot.png)
 
-CRUD Application, JWT Authentication, Router Module, REST API, Pagination, Angular, JSON-server, Two-Way Data Binding
+CRUD application, JSON-server, JWT authentication, REST API, pagination, two-way data binding, Router module
 
 Based on A.Freeman's book "Pro Angular"
