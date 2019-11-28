@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs/observable';
 import { Order } from './order.model';
-import {RestDataSource} from './rest.datasource';
+import { RestDataSource } from './rest.datasource';
 
 @Injectable()
 export class OrderRepository {

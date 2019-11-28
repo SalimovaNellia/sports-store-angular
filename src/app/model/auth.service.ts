@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Observable } from "rxjs/Observable";
+import { Observable } from "rxjs/observable";
 import { RestDataSource } from "./rest.datasource";
 import "rxjs/add/operator/map";
 
